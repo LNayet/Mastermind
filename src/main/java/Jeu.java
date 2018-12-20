@@ -52,14 +52,15 @@ public class Jeu {
     }
 
     public boolean verif_saisie(List<Character> saisie){
-        int j;
-        for(int i = 0; i < saisie.size(); i++){
+        int i,j;
+        for(i = 0; i < saisie.size(); i++){
             for(j = 0; j < pions_possibles.size(); j++){
                 if(saisie.get(i).equals(pions_possibles.get(j)))
                     break;
             }
-            if(j==pions_possibles.size())return false;
+            if(j==pions_possibles.size())return false; // vérifie que les caractères sont bien dans les pions possibles
         }
+        if(i!=4) return false; //vérifie que l'on a bien saisi 4 caractères
         return true;
     }
 

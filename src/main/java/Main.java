@@ -29,7 +29,7 @@ public class Main {
                 for(int j = 0; j < str2.length(); j++)
                     tmp.add(str2.charAt(j));
             }
-            for(int j = 0; j < 4; j++)
+            for(int j = 0; j < tmp.size(); j++)
                 mastermind.add_combinaison_joueur(tmp.get(j));
             tmp.clear();
             mastermind.verif_placement_pions(i);
