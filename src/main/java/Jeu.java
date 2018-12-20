@@ -108,9 +108,9 @@ public class Jeu {
         return false;
     }
 
-    public void affiche_combi_ordi(){
+    /*public void affiche_combi_ordi(){
         for(int i = 0; i < 4; i++)
             System.out.print(combinaison_ordi.get(i));
         System.out.println("\n");
-    }
+    }*/
 }

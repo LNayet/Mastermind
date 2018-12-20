@@ -9,7 +9,7 @@ public class Main {
         int i;
         mastermind.initialise_pions();
         mastermind.selectionne_combinaison_ordi();
-        mastermind.affiche_combi_ordi();
+        //mastermind.affiche_combi_ordi();
         System.out.println("Ordinateur > J'ai choisi ma combinaison, à vous de deviner !");
         System.out.println("Les couleurs possibles sont R J B O V et N");
         System.out.println("Tapez (RJBO) pour tenter les couleurs R J B O dans l'ordre");
